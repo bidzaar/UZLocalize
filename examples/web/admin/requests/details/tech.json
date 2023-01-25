@@ -20,7 +20,8 @@
     },
     "description": {
       "expand": "web/admin/requests/details: req.details.description.expand",
-      "collapse": "web/admin/requests/details: req.details.description.collapse"
+      "collapse": "web/admin/requests/details: req.details.description.collapse",
+      "empty": "web/admin/requests/details: req.details.description.empty"
     },
     "contacts": {
       "title": "web/admin/requests/details: req.details.contacts.title"
@@ -41,11 +42,16 @@
         "tooltip": "web/admin/requests/details: req.details.statistics.proposals.tooltip"
       }
     },
+    "category": {
+      "title": "web/admin/requests/details: req.details.category.title"
+    },
     "comment": {
+      "title": "web/admin/requests/details: req.details.comment.title",
       "edit": "web/admin/requests/details: req.details.comment.edit",
       "add": "web/admin/requests/details: req.details.comment.add"
     },
     "tariffs": {
+      "title": "web/admin/requests/details: req.details.tariffs.title",
       "payment_fee": {
         "seller": "web/admin/requests/details: req.details.tariffs.payment_fee.seller",
         "purchaser": "web/admin/requests/details: req.details.tariffs.payment_fee.purchaser",
@@ -55,7 +61,7 @@
           "closed": "web/admin/requests/details: req.details.tariffs.payment_fee.fee.closed"
         }
       },
-      "view": "web/admin/requests/details: req.details.tariffs.view",
+      "info": "web/admin/requests/details: req.details.tariffs.info",
       "dialog": {
         "edit": "web/admin/requests/details: req.details.tariffs.dialog.edit"
       }

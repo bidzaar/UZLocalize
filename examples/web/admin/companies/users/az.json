@@ -46,6 +46,11 @@
           "short": "[AT] Akkreditivin tələbi. hovuz",
           "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
         }
+      },
+      "role": {
+        "0": "[AT] Auditor",
+        "1": "[AT] Redaktor",
+        "2": "[AT] Sahib"
       }
     },
     "list": {
@@ -85,7 +90,8 @@
       },
       "sorting": {
         "name": "Ad",
-        "status": "Status"
+        "status": "Status",
+        "status_changed": "[AT] Status dəyişdirmə tarixi"
       }
     }
   }

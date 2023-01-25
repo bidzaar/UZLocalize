@@ -31,13 +31,16 @@
         "title": "Request tags",
         "from_company": "Add relevant tags +"
       },
+      "categories": {
+        "title": "Categories"
+      },
       "type": {
-        "title": "Type of request",
+        "title": "Type of the request",
         "public": "Opened",
         "private": "Closed"
       },
       "status": {
-        "title": "Status"
+        "title": "Status of the request"
       },
       "publish_date": {
         "title": "Submission date"
@@ -77,6 +80,8 @@
       },
       "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
       "default": "Default",
+      "mytags": "My tags",
+      "acceptance": "Acceptance of proposals",
       "type_of_change": {
         "title": "Request type",
         "labels": {
@@ -97,10 +102,21 @@
       "title": "My requests",
       "create": "Create request",
       "export": "Export",
-      "manager_title": "All requests of the company"
+      "manager_title": "All requests of the company",
+      "download": "Download",
+      "report": {
+        "period": "Report period",
+        "cancel": "Cancel",
+        "download": "Download",
+        "type": {
+          "0": "Vendors report",
+          "1": "All requests",
+          "2": "Completed requests"
+        }
+      }
     },
     "manager": {
-      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags"
+      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags\n• Customer"
     },
     "participantions": {
       "title": "Manage my bids",
@@ -120,6 +136,7 @@
     },
     "list_item": {
       "owners": "Request owners ({{value}})",
+      "owners_empty": "There are no owners",
       "chats_tooltip": "New messages",
       "budget": "Budget",
       "order_price": "Order price"
@@ -134,6 +151,7 @@
     "rank": {
       "not_available": "Offer rank is not calculated for requests that are subject to variance by position in the offer",
       "label": "Offer rank"
-    }
+    },
+    "gold": "Gold request"
   }
 }
