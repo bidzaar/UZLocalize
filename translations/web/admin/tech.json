@@ -17,7 +17,8 @@
             "stop_list": "web/admin: core.navigation.stop_list",
             "merge_tags": "web/admin: core.navigation.merge_tags",
             "tariffs": "web/admin: core.navigation.tariffs",
-            "categories": "web/admin: core.navigation.categories"
+            "categories": "web/admin: core.navigation.categories",
+            "promo_codes": "web/admin: core.navigation.promo_codes"
         }
     },
     "dashboard": {
@@ -118,10 +119,8 @@
             "1": "web/admin: common.rights.1",
             "2": "web/admin: common.rights.2",
             "4": "web/admin: common.rights.4",
-            "8": "web/admin: common.rights.8",
             "256": "web/admin: common.rights.256",
-            "512": "web/admin: common.rights.512",
-            "2048": "web/admin: common.rights.2048"
+            "512": "web/admin: common.rights.512"
         }
     },
     "controls": {
