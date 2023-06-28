@@ -31,7 +31,7 @@
                     "text": "Question text",
                     "comment": "Description (optional)",
                     "type": "Answer type",
-                    "group": "[AT] Section name"
+                    "group": "Section name"
                 },
                 "defaults": {
                     "group": "New group",
@@ -179,7 +179,7 @@
                 "number_range": "Number Range",
                 "attachment": "Attachment",
                 "formula": "Variable",
-                "tree": "Selection from the directory"
+                "tree": "Selection from the list"
             },
             "validation_types": {
                 "boolean": "",
@@ -250,13 +250,13 @@
                         "empty": "Select and add a value from the list..."
                     },
                     "input": {
-                        "placeholder": "[AT] Your Answer..."
+                        "placeholder": "Your Answer..."
                     },
                     "number": {
-                        "placeholder": "[AT] Number..."
+                        "placeholder": "Number..."
                     },
                     "datetime": {
-                        "placeholder": "[AT] Date of..."
+                        "placeholder": "Date of..."
                     }
                 }
             }
